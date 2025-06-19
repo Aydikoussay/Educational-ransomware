@@ -38,6 +38,9 @@ Ce simulateur de ransomware est un outil éducatif écrit en Python. Il parcourt
 ```bash
 git clone https://github.com/votre-utilisateur/educational-ransomware.git
 cd educational-ransomware
+---
+
+
 ## Installez les dépendances :
 ```bash
 pip install cryptography

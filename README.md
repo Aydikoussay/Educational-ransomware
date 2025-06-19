@@ -40,7 +40,7 @@ Ce projet est un **simulateur de ransomware éducatif** développé en Python. I
 ```bash
 git clone https://github.com/Aydikoussay/Educational-ransomware.git
 cd Educational-ransomware
-
+```bash
 
 
 ---

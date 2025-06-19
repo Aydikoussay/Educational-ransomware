@@ -1,47 +1,42 @@
 # 🦠 Educational Ransomware Simulator (Python)
 
-> ⚠️ **Ce projet est uniquement à but pédagogique. N'exécutez ce script que dans une machine virtuelle ou un environnement de test contrôlé.** Il ne vole, n’exfiltre ni ne chiffre de données sensibles – mais il chiffre réellement des fichiers localement avec AES.
+> ⚠️ **Projet à but pédagogique uniquement.** Ce simulateur chiffre réellement des fichiers localement à l’aide de l’AES, mais n’exfiltre aucune donnée. N’exécutez ce script que dans une **machine virtuelle** ou un **environnement de test isolé**.
 
 ---
 
-## 📌 Description
+## 📌 Présentation
 
-Ce simulateur de ransomware est un outil éducatif écrit en Python. Il parcourt un dossier local, chiffre les fichiers à l’aide d’AES-256 (via la bibliothèque `cryptography`), puis affiche une fausse note de rançon. Le projet est conçu pour apprendre :
+Ce projet est un **simulateur de ransomware éducatif** développé en Python. Il permet de découvrir le fonctionnement de base d’un ransomware à travers :
 
-- Le fonctionnement basique d’un ransomware
-- Le chiffrement symétrique avec AES
-- La sécurité des fichiers locaux
-- Les bonnes pratiques de protection contre ce type d’attaque
+- Le parcours et le chiffrement des fichiers d’un dossier
+- La génération et la gestion d’une clé AES (Fernet)
+- L’affichage d’une fausse **note de rançon**
+- Un script de **déchiffrement** pour restauration
+
+> Idéal pour apprendre les bases du **chiffrement symétrique** et de la **cybersécurité offensive/éducative**.
 
 ---
 
-## ⚙️ Fonctionnalités
+## ⚙️ Fonctionnalités principales
 
-- 🔐 Chiffrement de fichiers avec AES (Fernet)
-- 🔎 Parcours récursif d’un dossier
-- 🗝️ Génération et sauvegarde automatique de la clé
-- 💬 Affichage d’une note de rançon fictive
-- ✅ Script de déchiffrement inclus
+- 🔐 Chiffrement AES-256 (via `cryptography.fernet`)
+- 📁 Parcours récursif d’un répertoire cible
+- 🗝️ Génération automatique de la clé de chiffrement
+- 📝 Affichage d’une note de rançon simulée dans le terminal
+- 🔓 Script de déchiffrement inclus pour tests
 
 ---
 
 ## 🧰 Technologies utilisées
 
 - Python 3.x
-- [`cryptography`](https://cryptography.io/en/latest/)
+- [cryptography](https://cryptography.io/en/latest/) — chiffrement AES/Fernet
 
 ---
 
 ## 🚀 Installation
 
-1. Clonez le dépôt :
+1. **Cloner le dépôt :**
 ```bash
-git clone https://github.com/votre-utilisateur/educational-ransomware.git
-cd educational-ransomware
----
-
-
-## Installez les dépendances :
-```bash
-pip install cryptography
-
+git clone https://github.com/Aydikoussay/Educational-ransomware.git
+cd Educational-ransomware

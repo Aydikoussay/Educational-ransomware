@@ -39,7 +39,7 @@ Ce projet est un **simulateur de ransomware éducatif** développé en Python. I
 1. **Cloner le dépôt :**
 ```bash
 git clone https://github.com/Aydikoussay/Educational-ransomware.git
-cd Educational-ransomware```
+cd Educational-ransomware
 
 2. **Installer la dépendance principale :**
 ```bash

@@ -41,6 +41,12 @@ Ce projet est un **simulateur de ransomware éducatif** développé en Python. I
 git clone https://github.com/Aydikoussay/Educational-ransomware.git
 cd Educational-ransomware
 
+
+
+---
+
+
+
 2. **Installer la dépendance principale :**
 ```bash
 pip install cryptography

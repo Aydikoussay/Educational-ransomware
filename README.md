@@ -1,12 +1,12 @@
-# 🦠 Educational Ransomware Simulator (Python)
+# Ransomware Simulator (Python)
 
-> ⚠️ **Projet à but pédagogique uniquement.** Ce simulateur chiffre réellement des fichiers localement à l’aide de l’AES, mais n’exfiltre aucune donnée. N’exécutez ce script que dans une **machine virtuelle** ou un **environnement de test isolé**.
+> Ce simulateur chiffre réellement des fichiers localement à l’aide de l’AES, mais n’exfiltre aucune donnée. N’exécutez ce script que dans une **machine virtuelle** ou un **environnement de test isolé**.
 
 ---
 
-## 📌 Présentation
+## Présentation
 
-Ce projet est un **simulateur de ransomware éducatif** développé en Python. Il permet de découvrir le fonctionnement de base d’un ransomware à travers :
+Ce projet est un **simulateur de ransomware** développé en Python. Il permet de découvrir le fonctionnement de base d’un ransomware à travers :
 
 - Le parcours et le chiffrement des fichiers d’un dossier
 - La génération et la gestion d’une clé AES (Fernet)
